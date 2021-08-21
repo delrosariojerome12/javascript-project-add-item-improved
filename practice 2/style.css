@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu Mono", monospace;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  /* border: solid 4px rgb(250, 20, 20); */
+}
+/* main > * {
+  border: solid 2px #000;
+} */
+header {
+  background-color: #05a84c;
+  color: #fff;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header > * {
+  margin: 0 20px 0 20px;
+}
+input[type="text"] {
+  padding: 10px 15px;
+  min-width: 25%;
+  transition: all 0.2s ease-in-out;
+}
+.content {
+  padding: 15px;
+  position: relative;
+}
+.content > * {
+  margin: 15px 20px 15px 0;
+}
+.items {
+  width: 100%;
+  /* border: solid 1px #ccc; */
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: block;
+  border: solid 1px #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2px;
+  transition: all 0.2s ease-in-out;
+  height: 60px;
+  padding: 20px;
+}
+ul li:hover {
+  background-color: #ddd;
+}
+ul li > button {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: #05a84c;
+}
+ul li > button:hover {
+  background-color: #e60202;
+}
+input[type="submit"] {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+input[type="submit"]:hover {
+  background-color: #05a84c;
+  color: #fff;
+}
+#status {
+  font-size: 28px;
+  /* border: solid #000 2px; */
+  margin-left: auto;
+  width: 35%;
+}
+.status-con {
+  /* border: solid #000 2px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+}
